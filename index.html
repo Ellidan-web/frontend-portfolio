@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellidan Multo | Frontend Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/hero.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/projects.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/resume.css">
+    <link rel="stylesheet" href="./assets/css/testimonials.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Ellidan CODE</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+                </ul>
+                
+                <div class="nav__buttons">
+                    <a href="#contact" class="nav__resume-btn">Contact</a>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        <span class="hero__greeting">Hi, I'm</span>
+                        <span class="hero__name">Ellidan T. Multo</span>
+                    </h1>
+                    <div class="hero__subtitle">
+                        <span class="typewriter">Frontend Developer</span>
+                    </div>
+                    <p class="hero__description">
+                        Transforming ideas, concepts, designs, and code into responsive, high-quality web projects that leverage modern design and advanced technologies to deliver exceptional user experiences and measurable results.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#projects" class="btn btn--primary">View Projects</a>
+                        <a href="#contact" class="btn btn--secondary">Hire Me</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                       <lottie-player 
+    src="assets/json/Coding.json" 
+    background="transparent"  
+    speed="1"  
+    loop  
+    autoplay 
+    class="hero__img">
+</lottie-player>
+                    </div>
+                </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__image">
+                        <img src="assets/images/profile_pic.jpg" alt="About Ellidan T. Multo" class="about__img">
+                    </div>
+                    <div class="about__text">
+                        <h3 class="about__subtitle">Crafting Digital Excellence</h3>
+                        <p class="about__description">
+                            Hello! I'm Ellidan T. Multo, a Computer Engineering graduate from Naga College Foundation. I have experience as a full-stack web developer at i-GOV, Naga City Hall, where I contributed to the development and maintenance of government web systems. I specialize in creating functional, user-friendly, and visually engaging websites and applications, turning complex problems into simple, elegant solutions. I enjoy exploring new technologies, refining my skills, and delivering digital experiences that leave a lasting impression.
+                        </p>
+                        <p class="about__mission">
+                            My mission is to bridge the gap between design and technology, creating 
+                            seamless digital experiences that not only look great but also perform 
+                            exceptionally across all devices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="projects__container container">
+                <h2 class="section__title">Featured Projects</h2>
+                <div class="projects__grid">
+                    <!-- Project 1 -->
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="assets/images/chess.webp" alt="chess-app" class="project__img">
+                            <div class="project__overlay">
+                                <div class="project__links">
+                                    <a href="#" class="project__link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project__link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Mini Chess-app</h3>
+                            <p class="project__description">
+                               A compact chess game built with JavaScript, HTML, and CSS, allowing users to play against a basic AI or challenge friends locally in a clean and interactive interface.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech-tag">Javascript</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" class="btn btn--small">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="assets/images/dashboardigov.webp" alt="Admin-Dashboard" class="project__img">
+                            <div class="project__overlay">
+                                <div class="project__links">
+                                    <a href="#" class="project__link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project__link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Admin Dashboard</h3>
+                            <p class="project__description">
+                                A web-based admin dashboard designed to manage city services and user feedback, featuring dynamic charts, data filtering, and real-time updates for efficient monitoring.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" class="btn btn--small">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="assets/images/survey.webp" alt="Survey App" class="project__img">
+                            <div class="project__overlay">
+                                <div class="project__links">
+                                    <a href="#" class="project__link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="project__link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Survey App</h3>
+                            <p class="project__description">
+                              An interactive survey application that collects user feedback efficiently, visualizes responses in real-time, and supports easy data management for better decision-making.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#" class="btn btn--small">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="experience__container container">
+                <h2 class="section__title">Work Experience</h2>
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                            <span class="timeline__date">2022 - Present</span>
+                            <h3 class="timeline__title">Senior Frontend Developer</h3>
+                            <h4 class="timeline__company">Dolor Sit Amet Inc.</h4>
+                            <p class="timeline__description">
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <ul class="timeline__achievements">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco</li>
+                                <li>Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                            <span class="timeline__date">2020 - 2022</span>
+                            <h3 class="timeline__title">Frontend Developer</h3>
+                            <h4 class="timeline__company">Consectetur Solutions</h4>
+                            <p class="timeline__description">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.
+                            </p>
+                            <ul class="timeline__achievements">
+                                <li>Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+                                <li>Quis nostrud exercitation ullamco laboris nisi ut aliquip</li>
+                                <li>Sed do eiusmod tempor incididunt ut labore et dolore magna</li>
+                            </ul>
+                        </div>
+                    </div>-->
+
+                    <!-- Experience 3-->
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                             <span class="timeline__date">2020 - 2022</span>
+                            <h3 class="timeline__title">Frontend Developer</h3>
+                            <h4 class="timeline__company">Consectetur Solutions</h4>
+                            <p class="timeline__description">
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum.
+                            </p>
+                            <ul class="timeline__achievements">
+                                <li>Duis aute irure dolor in reprehenderit in voluptate velit esse</li>
+                                <li>Quis nostrud exercitation ullamco laboris nisi ut aliquip</li>
+                                <li>Sed do eiusmod tempor incididunt ut labore et dolore magna</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="skills__container container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="skills__content">
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Frontend Technologies</h3>
+                        <div class="skills__list">
+                            <div class="skill">
+                                <div class="skill__info">
+                                    <span class="skill__name">HTML5 & CSS3</span>
+                                    <span class="skill__percentage">95%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__info">
+                                    <span class="skill__name">JavaScript (ES6+)</span>
+                                    <span class="skill__percentage">90%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__info">
+                                    <span class="skill__name">React</span>
+                                    <span class="skill__percentage">85%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill__info">
+                                    <span class="skill__name">Vue.js</span>
+                                    <span class="skill__percentage">80%</span>
+                                </div>
+                                <div class="skill__bar">
+                                    <div class="skill__progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Tools & Technologies</h3>
+                        <div class="skills__tiles">
+                            <div class="skill-tile">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-tile">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                            <div class="skill-tile">
+                                <i class="fab fa-sass"></i>
+                                <span>Sass</span>
+                            </div>
+                            <div class="skill-tile">
+                                <i class="fab fa-npm"></i>
+                                <span>npm</span>
+                            </div>
+                            <div class="skill-tile">
+                                <i class="fab fa-webpack"></i>
+                                <span>Webpack</span>
+                            </div>
+                            <div class="skill-tile">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Resume Section -->
+<section class="resume section" id="resume">
+    <div class="resume__container container">
+        <h2 class="section__title">Download Resume</h2>
+        <div class="resume__content">
+            <div class="resume__text">
+                <h3 class="resume__subtitle">Ready to Work Together?</h3>
+                <p class="resume__description">
+                    Download my complete Resume or CV to explore my educational background,
+                    technical skills, and career journey.
+                </p>
+            </div>
+
+            <div class="resume__download">
+                <a href="assets/pdf/Ellidan-Multo-CV.pdf" download class="btn btn--primary btn--large resume__btn">
+                    <i class="fas fa-download"></i>
+                    Download CV
+                </a>
+
+                <a href="assets/pdf/Ellidan-Multo-Resume.pdf" download class="btn btn--primary btn--large resume__btn">
+                    <i class="fas fa-file"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Testimonials Section 
+        <section class="testimonials section" id="testimonials">
+            <div class="testimonials__container container">
+                <h2 class="section__title">Client Testimonials</h2>
+                <div class="testimonials__slider">
+                    <div class="testimonials__track">
+                      
+                        <article class="testimonial__card">
+                            <div class="testimonial__content">
+                                <div class="testimonial__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial__text">
+                                    "Ellidan delivered an exceptional e-commerce platform that exceeded our expectations. 
+                                    His attention to detail and technical expertise made the entire process smooth and efficient."
+                                </p>
+                                <div class="testimonial__author">
+                                    <img src="assets/images/client-1.jpg" alt="Sarah Johnson" class="testimonial__photo">
+                                    <div class="testimonial__info">
+                                        <h4 class="testimonial__name">Sarah Johnson</h4>
+                                        <p class="testimonial__role">CEO, RetailTech</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                   
+                        <article class="testimonial__card">
+                            <div class="testimonial__content">
+                                <div class="testimonial__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial__text">
+                                    "Working with Ellidan was a game-changer for our business. His ability to understand 
+                                    our needs and translate them into a beautiful, functional website was impressive."
+                                </p>
+                                <div class="testimonial__author">
+                                    <img src="assets/images/client-2.jpg" alt="Michael Chen" class="testimonial__photo">
+                                    <div class="testimonial__info">
+                                        <h4 class="testimonial__name">Michael Chen</h4>
+                                        <p class="testimonial__role">Product Manager, InnovateCo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                      
+                        <article class="testimonial__card">
+                            <div class="testimonial__content">
+                                <div class="testimonial__stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial__text">
+                                    "Ellidan's technical skills and professionalism are outstanding. He consistently 
+                                    delivers high-quality work on time and is a pleasure to work with."
+                                </p>
+                                <div class="testimonial__author">
+                                    <img src="assets/images/client-3.jpg" alt="Emily Rodriguez" class="testimonial__photo">
+                                    <div class="testimonial__info">
+                                        <h4 class="testimonial__name">Emily Rodriguez</h4>
+                                        <p class="testimonial__role">CTO, TechSolutions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="testimonials__nav">
+                        <button class="testimonials__btn testimonials__btn--prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="testimonials__btn testimonials__btn--next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Let's Talk</h3>
+                        <p class="contact__description">
+                            I'm currently available for freelance work and full-time opportunities. 
+                            Feel free to reach out if you have a project in mind or just want to connect!
+                        </p>
+                        
+                        <div class="contact__details">
+                            <div class="contact__item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span class="contact__label">Email</span>
+                                    <a href="mailto:Ellidan@example.com" class="contact__value">ellidanmulto51@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span class="contact__label">Location</span>
+                                    <span class="contact__value">Calabanga, Camarines Sur, Philippines</span>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <span class="contact__label">Availability</span>
+                                    <span class="contact__value">Available for new projects</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact__social">
+                            <a href="#" class="social__link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social__link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social__link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social__link"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+
+                    <form class="contact__form" id="contact-form">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form__input" required>
+                            <span class="form__error"></span>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form__input" required>
+                            <span class="form__error"></span>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="message" class="form__label">Your Message</label>
+                            <textarea id="message" name="message" class="form__textarea" rows="5" required></textarea>
+                            <span class="form__error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary form__submit">
+                            <span class="btn__text">Send Message</span>
+                            <div class="btn__loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </div>
+                        </button>
+                        
+                        <div class="form__message form__message--success">
+                            <i class="fas fa-check-circle"></i>
+                            Thank you! Your message has been sent successfully.
+                        </div>
+                        
+                        <div class="form__message form__message--error">
+                            <i class="fas fa-exclamation-circle"></i>
+                            Sorry, there was an error sending your message. Please try again.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#home" class="footer__logo">Ellidan Multo</a>
+                    <p class="footer__description">
+                        Frontend Developer creating beautiful, responsive web experiences.
+                    </p>
+                </div>
+                
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__title">Quick Links</h4>
+                        <ul class="footer__list">
+                            <li><a href="#home" class="footer__link">Home</a></li>
+                            <li><a href="#about" class="footer__link">About</a></li>
+                            <li><a href="#projects" class="footer__link">Projects</a></li>
+                            <li><a href="#contact" class="footer__link">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__column">
+                        <h4 class="footer__title">Connect</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">LinkedIn</a></li>
+                            <li><a href="#" class="footer__link">GitHub</a></li>
+                            <li><a href="#" class="footer__link">Twitter</a></li>
+                            <li><a href="#" class="footer__link">Dribbble</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2025 Ellidan Multo. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript Files -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/scrollAnimations.js"></script>
+    <script src="scripts/email.js"></script>
+    <script src="scripts/uiEffects.js"></script>
+</body>
+</html>

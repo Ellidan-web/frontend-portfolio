@@ -1,22 +1,27 @@
+:
+
 🚀 Frontend Portfolio
-A modern, responsive, and highly interactive portfolio website built with HTML, CSS, and vanilla JavaScript. Features smooth animations, EmailJS integration, and a professional design that showcases frontend development skills.
+
+A modern, responsive, and highly interactive portfolio website built with HTML, CSS, and vanilla JavaScript. Features smooth animations, EmailJS integration, and a professional design to showcase frontend development skills.
 
 ✨ Features
-🎨 Modern Design - Clean, professional UI with smooth animations
 
-📱 Fully Responsive - Perfect on desktop, tablet, and mobile
+🎨 Modern Design – Clean, professional UI with smooth animations
 
-⚡ Performance Optimized - Fast loading with optimized assets
+📱 Fully Responsive – Works on desktop, tablet, and mobile
 
-🎯 Interactive Elements - Smooth scroll, hover effects, and animations
+⚡ Performance Optimized – Fast loading with optimized assets
 
-📧 Contact Form - EmailJS integration for functional contact forms
+🎯 Interactive Elements – Smooth scroll, hover effects, animations
 
-♿ Accessible - WCAG compliant with proper semantic HTML
+📧 Contact Form – EmailJS integration for functional contact
 
-🌙 Modern CSS - CSS variables, Grid, Flexbox, and animations
+♿ Accessible – WCAG-compliant with semantic HTML
+
+🌙 Modern CSS – CSS variables, Grid, Flexbox, and keyframe animations
 
 🛠️ Tech Stack
+
 Frontend: HTML5, CSS3, Vanilla JavaScript
 
 Styling: CSS Variables, Flexbox, CSS Grid
@@ -32,9 +37,7 @@ Fonts: Google Fonts (Inter)
 Animations: Lottie (JSON)
 
 📁 Project Structure
-
 ```
-text
 frontend-portfolio/
 │
 ├── index.html
@@ -57,61 +60,55 @@ frontend-portfolio/
 │   │   ├── project-2.jpg
 │   │   └── project-3.jpg
 │   ├── json/
-│   │   └── Coding.json (Lottie animation)
+│   │   └── Coding.json
 │   └── pdf/
 │       └── ellidan-multo-resume.pdf
-│
 ├── scripts/
 │   ├── main.js
 │   ├── nav.js
 │   ├── scrollAnimations.js
 │   ├── email.js
 │   └── uiEffects.js
-│
 └── fonts/
 ```
 🎨 Sections
-Header - Sticky navigation with smooth scroll
 
-Hero - Introduction with animated Lottie element
+Header – Sticky navigation with smooth scroll
 
-About - Professional bio with highlights
+Hero – Introduction with animated Lottie element
 
-Projects - Featured projects with hover effects
+About – Professional bio with highlights
 
-Experience - Timeline layout work history
+Projects – Featured projects with hover effects
 
-Skills - Technical skills with progress bars
+Experience – Timeline layout for work history
 
-Resume - Download section with certifications
+Skills – Technical skills with progress bars
 
-Contact - EmailJS powered contact form
+Resume – Download section with certifications
 
-Footer - Links and copyright
+Testimonials – Optional credibility section
+
+Contact – EmailJS-powered contact form
+
+Footer – Links and copyright
 
 🚀 Quick Start
 Prerequisites
-Live server (VS Code extension) or any local server
+
+Live server (VS Code extension recommended)
 
 Basic text editor (VS Code recommended)
 
 Installation
-Clone or Download the Project
-
-bash
 git clone <your-repo-url>
 cd frontend-portfolio
-Set Up EmailJS (Optional but Recommended)
+
+EmailJS Setup (Optional but Recommended)
 
 Sign up at EmailJS
 
-Get your:
-
-Public Key
-
-Service ID
-
-Template ID
+Get your Public Key, Service ID, and Template ID
 
 Update scripts/email.js with your credentials
 
@@ -121,127 +118,104 @@ Replace placeholder images in assets/images/
 
 Update Lottie animation in assets/json/Coding.json
 
-Update personal information in index.html
+Modify personal info in index.html
 
-Modify color scheme in assets/css/global.css
+Adjust color scheme in assets/css/global.css
 
 Run the Project
-
-bash
 # Using VS Code Live Server
-# Or any local server like:
+# Or with Python's simple HTTP server:
 python -m http.server 8000
-# Then visit: http://localhost:8000
+# Visit: http://localhost:8000
+
 ⚙️ Configuration
-EmailJS Setup
-Update scripts/email.js with your credentials:
-
-javascript
+EmailJS
 emailjs.init("YOUR_PUBLIC_KEY");
-// and in sendEmail():
-'YOUR_SERVICE_ID',
-'YOUR_TEMPLATE_ID',
+// Use sendForm with:
+'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID'
+
 Lottie Animation
-Replace the default animation by:
 
-Creating your animation at LottieFiles
-
-Download the JSON file
-
-Replace assets/json/Coding.json with your file
+Replace default animation by uploading a JSON from LottieFiles
 
 Update the path in index.html if needed
 
 🎯 Customization
 Colors
+
 Edit CSS variables in global.css:
 
-css
 :root {
-    --primary-color: #2563eb;
-    --primary-dark: #1d4ed8;
-    --accent-color: #f59e0b;
-    /* ... other colors */
+  --primary-color: #2563eb;
+  --primary-dark: #1d4ed8;
+  --accent-color: #f59e0b;
+  /* Add other colors as needed */
 }
+
 Content
-Update all personal information in index.html:
 
-Name: Ellidan Multo
-
-Job title
-
-Bio descriptions
-
-Work experience
-
-Projects
-
-Skills
-
-Contact information
+Update name, job title, bio, experience, projects, skills, contact info in index.html
 
 Images
-Replace placeholder images in assets/images/:
 
-hero-portrait.jpg - Your professional photo
+hero-portrait.jpg – Professional photo
 
-about-image.jpg - About section image
+about-image.jpg – About section image
 
-project-*.jpg - Project screenshots
+project-*.jpg – Project screenshots
 
 📱 Responsive Breakpoints
-Mobile: 375px - 600px
 
-Tablet: 600px - 1024px
+Mobile: 375px – 600px
+
+Tablet: 600px – 1024px
 
 Desktop: 1024px+
 
 🚀 Deployment
-Netlify (Recommended)
-Drag and drop your project folder to Netlify
+Netlify
 
-Or connect your GitHub repository
+Drag & drop project folder
+
+Or connect GitHub repository
 
 GitHub Pages
-Push to GitHub repository
 
-Go to Settings → Pages
+Push to GitHub
 
-Select main branch and root folder
+Settings → Pages → select main branch & root folder
 
 Other Options
-Vercel
 
-Firebase Hosting
-
-Any static hosting service
+Vercel, Firebase Hosting, or any static host
 
 🔧 Scripts Overview
-main.js - Initialization and core functionality
 
-nav.js - Navigation and mobile menu
+main.js – Core initialization & functionality
 
-scrollAnimations.js - Scroll-triggered animations
+nav.js – Navigation and mobile menu
 
-email.js - Contact form with EmailJS
+scrollAnimations.js – Scroll-triggered animations
 
-uiEffects.js - Interactive UI effects
+email.js – Contact form EmailJS integration
+
+uiEffects.js – Interactive UI effects
 
 🎨 Design Features
-Smooth Transitions: 200-400ms animations
 
-Scroll Animations: Fade-in, slide-up effects
+Smooth transitions: 200–400ms
 
-Hover Effects: Interactive buttons and cards
+Scroll animations: fade-in, slide-up
 
-Professional Typography: Google Fonts Inter
+Hover effects: buttons, cards
 
-Consistent Spacing: CSS variable system
+Professional typography: Google Fonts Inter
+
+Consistent spacing via CSS variables
 
 📞 Support
-For issues or questions:
 
-Check the browser console for errors
+Check browser console for errors
 
 Verify file paths and names
 

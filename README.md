@@ -1,5 +1,3 @@
-:
-
 🚀 Frontend Portfolio
 
 A modern, responsive, and highly interactive portfolio website built with HTML, CSS, and vanilla JavaScript. Features smooth animations, EmailJS integration, and a professional design to showcase frontend development skills.
@@ -213,10 +211,10 @@ Professional typography: Google Fonts Inter
 
 Consistent spacing via CSS variables
 
-📞 Support
+🆘 Support
+For technical issues or questions regarding this system, please contact the owner and developer:
 
-Check browser console for errors
+ELLIDAN T. MULTO 
 
-Verify file paths and names
-
-Ensure all dependencies are loaded
+Email: ellidanmulto51@gmail.com 
+Phone: +639900106341

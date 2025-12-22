@@ -1,24 +1,24 @@
-🚀 Frontend Portfolio
+# Frontend Portfolio
 
 A modern, responsive, and highly interactive portfolio website built with HTML, CSS, and vanilla JavaScript. Features smooth animations, EmailJS integration, and a professional design to showcase frontend development skills.
 
-✨ Features
+## Features
 
-🎨 Modern Design – Clean, professional UI with smooth animations
+Modern Design – Clean, professional UI with smooth animations
 
-📱 Fully Responsive – Works on desktop, tablet, and mobile
+Fully Responsive – Works on desktop, tablet, and mobile
 
-⚡ Performance Optimized – Fast loading with optimized assets
+Performance Optimized – Fast loading with optimized assets
 
-🎯 Interactive Elements – Smooth scroll, hover effects, animations
+Interactive Elements – Smooth scroll, hover effects, animations
 
-📧 Contact Form – EmailJS integration for functional contact
+Contact Form – EmailJS integration for functional contact
 
-♿ Accessible – WCAG-compliant with semantic HTML
+Accessible – WCAG-compliant with semantic HTML
 
-🌙 Modern CSS – CSS variables, Grid, Flexbox, and keyframe animations
+Modern CSS – CSS variables, Grid, Flexbox, and keyframe animations
 
-🛠️ Tech Stack
+## Tech Stack
 
 Frontend: HTML5, CSS3, Vanilla JavaScript
 
@@ -34,7 +34,7 @@ Fonts: Google Fonts (Inter)
 
 Animations: Lottie (JSON)
 
-📁 Project Structure
+## Project Structure
 ```
 frontend-portfolio/
 │
@@ -69,7 +69,7 @@ frontend-portfolio/
 │   └── uiEffects.js
 └── fonts/
 ```
-🎨 Sections
+##  Sections
 
 Header – Sticky navigation with smooth scroll
 
@@ -91,7 +91,7 @@ Contact – EmailJS-powered contact form
 
 Footer – Links and copyright
 
-🚀 Quick Start
+## Quick Start
 Prerequisites
 
 Live server (VS Code extension recommended)
@@ -126,7 +126,7 @@ Run the Project
 python -m http.server 8000
 # Visit: http://localhost:8000
 
-⚙️ Configuration
+## Configuration
 EmailJS
 emailjs.init("YOUR_PUBLIC_KEY");
 // Use sendForm with:
@@ -138,7 +138,7 @@ Replace default animation by uploading a JSON from LottieFiles
 
 Update the path in index.html if needed
 
-🎯 Customization
+## Customization
 Colors
 
 Edit CSS variables in global.css:
@@ -162,7 +162,7 @@ about-image.jpg – About section image
 
 project-*.jpg – Project screenshots
 
-📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 Mobile: 375px – 600px
 
@@ -170,7 +170,7 @@ Tablet: 600px – 1024px
 
 Desktop: 1024px+
 
-🚀 Deployment
+## Deployment
 Netlify
 
 Drag & drop project folder
@@ -187,7 +187,7 @@ Other Options
 
 Vercel, Firebase Hosting, or any static host
 
-🔧 Scripts Overview
+## Scripts Overview
 
 main.js – Core initialization & functionality
 
@@ -199,7 +199,7 @@ email.js – Contact form EmailJS integration
 
 uiEffects.js – Interactive UI effects
 
-🎨 Design Features
+## Design Features
 
 Smooth transitions: 200–400ms
 
@@ -210,9 +210,4 @@ Hover effects: buttons, cards
 Professional typography: Google Fonts Inter
 
 Consistent spacing via CSS variables
-
-🆘 Support
-For technical issues or questions regarding this system, please contact the owner and developer:
-
-ELLIDAN T. MULTO 
 
